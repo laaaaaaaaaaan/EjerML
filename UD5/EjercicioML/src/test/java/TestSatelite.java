@@ -44,4 +44,7 @@ public class TestSatelite {
 		assertEquals(sateliteTest3.paralelo, 123, 0);
 		assertEquals(sateliteTest3.distancia_tierra, 567, 0);
 	}
+	
+
+	
 }

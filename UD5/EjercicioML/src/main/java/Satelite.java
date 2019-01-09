@@ -23,5 +23,18 @@ public class Satelite {
 		System.out.println("El satélite se encuentra en el paralelo "+ this.paralelo+ 
 		" Meridiano "+this.meridiano+" a una distancia de la tierra de "+this.distancia_tierra+"Kilómetros");
 	}
+	
+	public boolean enOrbita(double d) {
+		boolean orbita;
+		this.distancia_tierra=d;
+		if (d>200) {
+			orbita=false;
+		}
+		else {
+			orbita=true;
+		}
+		return orbita;
+	}
+	
 }
 
