@@ -33,7 +33,7 @@ public class Satelite {
 		else {
 			System.out.println("tiene que alegarse");
 		}
-		
+	
 		
 	}
 	
