@@ -7,6 +7,7 @@ public class TestSatelite {
 	private double meridiano;
 	private double paralelo;
 	private double distancia_tierra;
+	private double desplazamiento;
 
 	@Test
 	public void testConstructor1() {
